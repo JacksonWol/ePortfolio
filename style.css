@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Mons\tserrat:wght@400;500&display=swap');
+
+body{
+    background-color:rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #0081D5;
+    margin-left: 15%;
+}
+
+/* heading hover code */
+.namebox p{
+    color: #000;
+    font-size: 18px;
+}
+.namebox h1{
+    transition: all 400ms ease;
+}
+.namebox h1:active{  
+    color: #0081D5;  
+    transition: all 400ms ease;
+}
+.namebox h1:focus,
+.namebox h1:hover{
+    color: #005C99;
+    padding-top: 5px;
+}
+/* Button Code Here */
+
+.button-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button-group{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px white solid;
+}
+.btn{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: #0081D5;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.123);
+}
+.btn:active{
+    background: #014c7e
+}
+.btn:hover,
+.btn:focus{
+    padding: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.329);
+    
+}
+.btn2{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: #0081D5;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.123);
+}
+.btn2:active{
+    background: #014c7e
+}
+.btn2:hover,
+.btn2:focus{
+    padding: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.329);
+}
+.btn:hover{
+    transform: translateX(10%);
+    transform: translateY(10%);
+}
+.btn2:hover{
+    transform: translateX(10%);
+    transform: translateY(10%);
+}
+
+/* link code */
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* about.html segment */
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #0081D5;
+    margin-left: 5%;
+}
+
+.wrapper h1{
+    transition: all 300ms ease;
+}
+
+.wrapper:active h1{
+    color: #0081D5;  
+    transition: all 300ms ease;
+}
+
+.wrapper:focus,
+.wrapper:hover h1{
+    color: #005C99;
+    padding-top: 5px;
+}
+
+.item p{
+    color: black;
+}
+
+.wrapper{
+    width: 350px;
+    display: flex;
+    border: 1px white solid;
+}
+
+.imggroup img{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/* contact.html segment */
+
+.wrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #0081D5;
+    margin-left: 5%;
+}
+
+/* resume.html segment */
+
+.wrapper3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #0081D5;
+    margin-left: 5%;
+}
+
+/* Dark Mode/Light Mode */
+
+.namebox img{
+    width: 30px;
+    padding-left: 5px;
+}
